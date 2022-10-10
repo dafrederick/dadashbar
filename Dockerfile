@@ -13,5 +13,5 @@ USER 1001
 # Install the dependencies
 RUN /usr/libexec/s2i/assemble
 
-# Set the default command for the resulting image
+## Set the default command for the resulting image
 CMD /usr/libexec/s2i/run
